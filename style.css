@@ -452,6 +452,47 @@ p {
     margin-left: 2vh;
 }
 
+footer{
+    background-color: #9767a9;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.caixa-geral{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-layout{
+    width: 57%;
+}
+
+.p-footer{
+    font-size: 1.8vh;
+}
+
+.img-footer{
+    width: 16vh;
+    display: inline-flex;
+}
+
+.img-seta{
+    width: 4vh;
+}
+
+.img-footer:hover{
+    cursor: pointer;
+    background-color: #a484af;
+    opacity: 0.99;
+    transform: scale(1.2);
+}
+
 @media only screen and (max-width: 360px) {
     header {width: 100%;}
     header {background-color: rgb 255, 255, 255;}
