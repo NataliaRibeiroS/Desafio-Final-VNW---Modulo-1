@@ -91,3 +91,360 @@ input:hover{
 .rs:hover{
     cursor: pointer;
 }
+
+.capa{
+    background-image: url('capa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #9767a9;
+    width: 100%;
+    height: 80%;
+}
+
+.filha-capa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.capa-h1{
+    font-family: playfair display;
+    font-size: 10vh;
+    margin-top: -1vh;
+    margin-left: 15vh;
+    width: 50vh;
+}
+
+
+.capa-h3{
+    font-family: montserrat;
+    font-size: 30px;
+    margin-top: -3vh;
+    margin-right: 20vh;
+    width: 45vh;
+}
+
+.fundo-main{
+    background-color: #9767a9;
+    width: 100%;
+    height: 35vh;
+}
+
+.filha-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sete-passos{
+    width: 72vh;
+    font-family: playfair display;
+    font-size: 5vh;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-left: 25vh;
+}
+
+.sabemos{
+    width: 50%;
+    height: 20vh;;
+    font-family: montserrat;
+    font-size: 1em;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-right: 40vh;
+}
+
+h3{
+    font-family: playfair display;
+    font-size: 2rem;
+}
+
+p{
+    margin-top: 1vh;
+    font-family: montserrat;
+    font-size: 0.9rem;
+}
+
+.numero-um{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30vh;
+}
+
+.img-crianças{
+    width: 63vh;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    z-index: 0;
+}
+
+.p-h3-crianças{
+    background-color: #9767a9;
+    width: 45vh;
+    height: 45vh;
+    margin-left: 17vh;
+    margin-top: -10vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-dois{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30vh;
+}
+
+.img-Maju{
+    width: 63vh;
+    margin-top: -55vh;
+    margin-right: 3vh;
+    z-index: 0;
+}
+
+.p-h3-maju{
+    background-color: #9767a9;
+    width: 50vh;
+    margin-right: 10vh;
+    margin-top: -14.5vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-tres{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30vh;
+}
+
+.img-jovem{
+    width: 63vh;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    z-index: 0;
+}
+
+.p-h3-jovem{
+    background-color: #9767a9;
+    width: 45vh;
+    margin-left: 17vh;
+    margin-top: -10vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-quatro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30vh;
+}
+
+.img-rainha{
+    width: 63vh;
+    margin-top: -55vh;
+    margin-right: 3vh;
+    z-index: 0;
+}
+
+.p-h3-rainha{
+    background-color: #9767a9;
+    width: 55vh;
+    margin-right: 7vh;
+    margin-top: -3vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-cinco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30vh;
+}
+
+.img-mae-e-filha{
+    width: 63vh;
+    margin-top: -10vh;
+    margin-left: 7vh;
+    z-index: 0;
+}
+
+.p-h3-mae-e-filha{
+    background-color: #9767a9;
+    width: 45vh;
+    margin-left: 12vh;
+    margin-top: -15vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-seis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30vh;
+}
+
+.img-lavando-cabelo{
+    width: 63vh;
+    margin-top: -45vh;
+    margin-right: 3vh;
+    z-index: 0;
+}
+
+.p-h3-lavando-cabelo{
+    background-color: #9767a9;
+    width: 45vh;
+    margin-right: 12vh;
+    margin-top: -5vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-sete{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30vh;
+}
+
+.img-grisalho{
+    width: 63vh;
+    margin-top: -25vh;
+    margin-left: 7vh;
+    z-index: 0;
+}
+
+.p-h3-grisalho{
+    background-color: #9767a9;
+    width: 50vh;
+    margin-left: 12vh;
+    margin-top: -13vh;
+    padding: 2vh;
+    z-index: 5;
+}
+
+.numero-oito{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30vh;
+}
+
+.img-cacho{
+    width: 35vh;
+    margin-top: -22vh;
+    margin-right: 15vh;
+    z-index: 0;
+}
+
+.img-cacho:hover{
+    cursor: pointer;
+    transform: scale(1.2) rotate(90deg);
+    
+}
+
+.figuras{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.primeiro-grupo{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-rei{
+    width: 30vh;
+    height: 50vh;
+}
+
+.img-gloria{
+    width: 30vh;
+    height: 25vh; 
+    margin-top: 2vh;
+}
+
+.segundo-grupo{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-beyonce{
+    width: 30vh;
+    height: 25vh;
+    margin-left: 2vh;
+}
+
+.img-pantera{
+    width: 30vh;
+    height: 25vh;
+    margin-left: 2vh;
+}
+
+.img-tais{
+    width: 30vh;
+    height: 25vh;
+    margin-left: 2vh;
+}
+
+.terceiro-grupo{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-modelo{
+    width: 30vh;
+    height: 50vh;
+    margin-left: 2vh;
+}
+
+.img-snoop{
+    width: 30vh;
+    height: 25vh;
+    margin-left: 2vh;
+}
+
+.quarto-grupo{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-black{
+    width: 30vh;
+    height: 100%;
+    margin-left: 2vh;
+}
+
+.quinto-grupo{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-trança{
+    width: 31vh;
+    height: 25vh;
+    margin-left: 2vh;
+}
+
+.img-barbudo{
+    width: 31vh;
+    height: 50vh;
+    margin-left: 2vh;
+}
