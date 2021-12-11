@@ -451,3 +451,11 @@ p {
     height: 50vh;
     margin-left: 2vh;
 }
+
+@media only screen and (max-width: 360px) {
+    header {width: 100%;}
+    header {background-color: rgb 255, 255, 255;}
+    .nav{display: none;}
+    .redes-sociais{display: none;}
+    .filha-capa{flex-direction: column;}
+}
