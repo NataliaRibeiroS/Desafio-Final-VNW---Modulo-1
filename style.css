@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 1vh;
+    border-left-width: 1vh;
+    border-right-width: 1vh;
+    border-bottom: 0;
+    border-color: #ccc;
+}
+
+.logo{
+    width: 8%
+}
+
+.logo:hover{
+    cursor: pointer; 
+    transform: scale(1.2);
+}
+
+li, h2, p{
+    font-family: montserrat;
+}
+
+li{
+    color: #9767a9;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding-right:2vw;
+}
+
+li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #4f0669;
+}
+
+input{
+    width: 12vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #9767a9;
+    color: #9767a9;
+    background-image: url('busca.png');
+    background-position: 4% center;
+    background-repeat: no-repeat;
+}
+
+input:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #4f0669;
+    transform: scale(1.2);
+}
+
+.place::placeholder{
+    padding-left: 2vw;
+    color: #9767a9;
+}
+
+.busca{
+    padding-right: 3vh;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:15%;
+}
+
+.rs{
+    padding-right: 1vh;
+}
+
+.rs:hover{
+    cursor: pointer;
+}
