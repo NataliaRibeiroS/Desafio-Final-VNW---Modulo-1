@@ -28,6 +28,10 @@ header {
     transform: scale(1.2);
 }
 
+.hamburger{
+    display: none;
+}
+
 li,
 h2,
 p {
@@ -495,10 +499,171 @@ footer{
     transform: scale(1.2);
 }
 
-@media only screen and (max-width: 360px) {
-    header {width: 100%;}
-    header {background-color: rgb 255, 255, 255;}
+@media only screen and (max-width: 425px) {
+    header {
+        width: 100%;
+        background-color: rgb 255, 255, 255;
+    }
+    .hamburger {display: flex;}
+    .logo {display: flex;}
     .nav{display: none;}
     .redes-sociais{display: none;}
+    .capa {width: 100%;}
     .filha-capa{flex-direction: column;}
+    .fundo-main {
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filha-titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sete-passos {
+        font-size:  1.2em;
+        margin: 0 auto;
+    }
+
+    .sabemos {
+        font-size:  1.1em;
+        margin: 0 auto; 
+    }
+
+    .img-crianças {
+        width: 160%;
+        margin-top: 3vh;
+        padding-left: 5.5vh;
+        margin-left: -30vh;
+    }
+    
+    .p-h3-crianças {
+        width: 181%;
+        margin-left: -30vh;
+        margin-top: 0;
+    }
+    
+    .numero-dois {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-Maju {
+        width: 175%;
+        margin-top: 3vh;
+        margin-left: 17vh;
+        padding-left: 11vh;
+    }
+    
+    .p-h3-maju {
+        width: 181%;
+        margin-left: 35vh;
+        margin-top: 0;
+    }
+    
+    .numero-tres {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-jovem {
+        width: 160%;
+        padding-top: 13vh;
+        padding-left: 7vh;
+        margin-right: 50vh;
+    }
+    
+    .p-h3-jovem {
+        width: 181%;
+        margin-left: -35vh;
+        margin-top: 0;
+    }
+    
+    .numero-quatro {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-rainha {
+        width: 175%;
+        margin-top: 3vh;
+        margin-left: 15vh;
+        padding-left: 11vh;
+    }
+    
+    .p-h3-rainha {
+        width: 181%;
+        margin-left: 32vh;
+        margin-top: 0;
+    }
+    
+    .numero-cinco {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-mae-e-filha {
+        width: 160%;
+        padding-top: 13vh;
+        padding-left: 7vh;
+        margin-right: 50vh;
+    }
+    
+    .p-h3-mae-e-filha {
+        width: 181%;
+        margin-left: -35vh;
+        margin-top: 0;
+    }
+
+    .numero-seis {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-lavando-cabelo {
+        width: 175%;
+        margin-top: 3vh;
+        margin-left: 15vh;
+        padding-left: 11vh;
+    }
+    
+    .p-h3-lavando-cabelo {
+        width: 181%;
+        margin-left: 37vh;
+        margin-top: 0;
+    }
+    
+    .numero-sete {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-grisalho {
+        width: 160%;
+        padding-top: 28vh;
+        padding-left: 7vh;
+        margin-right: 50vh;
+    }
+    
+    .p-h3-grisalho {
+        width: 181%;
+        margin-left: -35vh;
+        margin-top: 0;
+    }
+    
+    .numero-oito {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-cacho {
+        width: 80%;
+        margin-left: 38vh;
+        margin-top: 10vh;
+    }
+    
 }
