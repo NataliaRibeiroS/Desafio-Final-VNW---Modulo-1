@@ -531,12 +531,14 @@ footer{
     }
 
     .hamburger {
-        display: none;
+        background-color: #4f0669;
+        display: flex;
+        margin-left: -40vh;
     }
     
     .logo {
         display: flex;
-        margin-right: 20vh;
+        margin-right: 13vh;
     }
 
     .nav{
