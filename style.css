@@ -20,12 +20,15 @@ header{
 }
 
 .logo{
-    width: 8%
+    width: 8%;
+    margin-top: 0.5vh;
+    transition: all .5s;
 }
 
 .logo:hover{
     cursor: pointer; 
-    transform: scale(1.2);
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(0.8);
 }
 
 .hamburger{
@@ -90,10 +93,13 @@ input:hover{
 
 .rs{
     padding-right: 1vh;
+    transition: all 0.5s;
 }
 
 .rs:hover{
     cursor: pointer;
+
+    transform: scale(1.5);
 }
 
 .capa-resp{
@@ -352,8 +358,8 @@ p{
     margin-top: -22vh;
     margin-right: 15vh;
     z-index: 0;
-    transition: all .5s;
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));  
+    transition:  all .5s;
+    -webkit-filter: drop-shadow(15px 20px 5px rgba(0,0,0,.5));  
 }
 
 .img-cacho:hover{
@@ -391,6 +397,7 @@ p{
     height: 30%; 
     margin-top: 4%;
 }
+
 .img-gloria:hover{
     cursor: pointer;
     transform: scale(1.2);   
@@ -410,16 +417,37 @@ p{
     margin-left: 5.5%;
 }
 
+.img-beyonce:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
+}
+
 .img-pantera{
     width: 94%;
     height: 34%;
     margin-left: 5.5%;
 }
 
+.img-pantera:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
+}
+
 .img-tais{
     width: 94%;
     height: 28.1%;
     margin-left: 5.5%;
+}
+
+.img-tais:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
 }
 
 .terceiro-grupo{
@@ -434,10 +462,24 @@ p{
     margin-left: 5.5%;
 }
 
+.img-modelo:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
+}
+
 .img-snoop{
     width: 94%;
     height: 28.1%;
     margin-left: 5.5%;
+}
+
+.img-snoop:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
 }
 
 .quarto-grupo{
@@ -449,7 +491,14 @@ p{
 .img-black{
     width: 95%;
     height: 100%;
-    margin-left: 5.5%;
+    margin-left: 4.5%;
+}
+
+.img-black:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
 }
 
 .quinto-grupo{
@@ -461,13 +510,27 @@ p{
 .img-trança{
     width: 94.5%;
     height: 28.1%;
-    margin-left: 5.5%;
+    margin-left: 6%;
+}
+
+.img-trança:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
 }
 
 .img-barbudo{
     width: 94.5%;
     height: 70%;
-    margin-left: 5.5%;
+    margin-left: 6%;
+}
+
+.img-barbudo:hover{
+    cursor: pointer;
+    transform: scale(1.2);   
+    border-radius: 25px ;
+    border: medium;
 }
 
 footer{
@@ -531,14 +594,22 @@ footer{
     }
 
     .hamburger {
-        background-color: #4f0669;
+        width: 10vh;
         display: flex;
-        margin-left: -39.8vh;
+        margin-left: -35vh;
+        margin-top: 0 auto;
     }
     
     .logo {
         display: flex;
-        margin-right: 13vh;
+        justify-content: center;
+        margin-right: 25.7vh;
+    }
+
+    .img-logo{
+        width: 10vh;
+        height: 7vh;
+        margin-top: 0.5vh;
     }
 
     .nav{
@@ -765,7 +836,7 @@ footer{
         margin-top: 5vh;
         margin-left: -3vh;
         display: flex;
-    }
+    }    
         
     footer{
         width: 100%;
@@ -826,4 +897,3 @@ footer{
         display: none;
     }
 }
-
